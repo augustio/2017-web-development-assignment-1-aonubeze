@@ -1,0 +1,90 @@
+body{
+    height: auto;
+    width: auto;
+    margin: auto;
+}
+
+div.container1{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div.container2{
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+div.container3{
+    margin-top: 450px;
+    margin-left: 20px;
+}
+
+.l-1-box{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+#blue-box{
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    background-color: blue;
+}
+#yellow-box{
+    position: relative;
+    font-size: 40px;
+    float: left;
+    padding-top: 80px;
+    box-sizing: border-box;
+    background-color: yellow;
+    margin-left: 250px;
+}
+#green-box{
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding-top: 170px;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: green;
+    margin-left: 150px;
+}
+
+#txt-box{
+    height: 200px;
+    width: 400px;
+    float: left;
+    margin-left: 250px;
+    color: red;
+    background-color: lightgray;
+    border: 2px solid red;
+}
+
+#drop-area-1{
+    float: left;
+    border: 2px solid green;
+    margin-left: 250px;
+}
+
+#drop-area-2{
+    float: left;
+    border: 2px solid black;
+    margin-left: 400px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    padding: 5px;
+    border: 1px solid black;
+}
+#img-1{
+    margin-left: 250px;
+}
+
+#img-2{
+    float: left;
+}
