@@ -17,28 +17,33 @@
             function drop(ev) {
                 ev.preventDefault();
                 var data = ev.dataTransfer.getData("text");
+                ev.target.innerHTML = "";
                 ev.target.appendChild(document.getElementById(data));
             }
         </script>
     </head>
     <body>
         <div class="container1">
-            <div class="l-1-box" id="blue-box">Text A</div>
-            <div class="l-1-box" id="yellow-box">Text B</div>
-            <div class="l-1-box" id="green-box">Text C</div>
-            <div id="img1-box">
-                <img id="img-1" src="imgs/puppy2.jpg" draggable="true" ondragstart="drag(event)">
+            <div class="box-sm" id="blue-box">Text A</div>
+            <div class="box-sm" id="yellow-box">Text B</div>
+            <div class="box-sm" id="green-box">Text C</div>
+            <div class="box-sm" id="img1-box">
+                <img id="img-1" src="imgs/puppy2.jpg">
             </div>
         </div>
         <div class="container2">
-            <div id="img2-box">
+            <div class="box-sm" id="img2-box">
                 <img id="img-2" src="imgs/puppy3.jpg" draggable="true" ondragstart="drag(event)">
             </div>
             <div id="txt-box">Text D</div>
         </div>
         <div class="container3">
-            <div class="l-1-box" id="drop-area-1" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
-            <div class="l-1-box" id="drop-area-2" ondrop="drop(event)" ondragover="allowDrop(event)"></div>
+            <div class="box-sm" id="drop-area-1" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="content">Drag & Drop area</div>
+            </div>
+            <div class="box-sm" id="drop-area-2" ondrop="drop(event)" ondragover="allowDrop(event)">
+                <div class="content">Drag & Drop area</div>
+            </div>
         </div>
     </body>
 </html>

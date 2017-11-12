@@ -1,35 +1,41 @@
-div.container1{
+.container1{
+    position: relative;
+    margin-left: 20px;
     margin-top: 20px;
+    overflow: hidden;
+}
+
+.container2{
+    margin-left: 20px;
+    margin-top: 50px;
+    overflow: hidden;
+}
+
+.container3{
+    margin-top: 50px;
     margin-left: 20px;
 }
 
-div.container2{
-    margin-left: 20px;
-}
-
-div.container3{
-    margin-left: 20px;
-}
-
-.l-1-box{
+.box-sm{
     height: 200px;
     width: 200px;
-    border: 1px solid black;
 }
 
 #blue-box{
     float: left;
     color: white;
     font-size: 20px;
+    box-sizing: border-box;
     text-align: center;
     background-color: blue;
 }
 #yellow-box{
-    font-size: 40px;
     float: left;
     padding-top: 80px;
+    font-size: 40px;
     box-sizing: border-box;
     background-color: yellow;
+    border: 1px solid black;
     margin-left: 250px;
 }
 #green-box{
@@ -40,13 +46,29 @@ div.container3{
     box-sizing: border-box;
     text-align: center;
     background-color: green;
+    border: 1px solid black;
     margin-left: 150px;
+}
+#img1-box{
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    margin-left: 250px;
+}
+
+#img2-box{
+    float: left;
+    padding: 10px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    cursor: move;
 }
 
 #txt-box{
     height: 200px;
-    width: 400px;
-    float: left;
+    width: 500px;
+    display: inline-block;
     margin-left: 250px;
     color: red;
     background-color: lightgray;
@@ -55,35 +77,33 @@ div.container3{
 
 #drop-area-1{
     float: left;
+    text-align: center;
     border: 2px solid green;
+    padding: 10px;
+    box-sizing: border-box;
     margin-left: 250px;
 }
 
 #drop-area-2{
     float: left;
+    text-align: center;
     border: 2px solid black;
-    margin-left: 400px;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-left: 500px;
+}
+
+.content {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 img{
-    height: 200px;
-    width: 200px;
+    height: 180px;
+    width: 180px;
     object-fit: cover;
 }
 
-#img1-box{
-    float: left;
-    height: 200px;
-    width: 200px;
-    padding: 5px;
-    margin-left: 250px;
-    border: 1px solid black;
-}
-#img2-box{
-    float: left;
-    height: 200px;
-    width: 200px;
-    padding: 5px;
-    margin-left: 250px;
-    border: 1px solid black;
-}
