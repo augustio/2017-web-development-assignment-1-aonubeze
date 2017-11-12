@@ -55,6 +55,9 @@
     border: 1px solid black;
     box-sizing: border-box;
     margin-left: 250px;
+    animation-name: img-anim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
 }
 
 #img2-box{
@@ -101,9 +104,23 @@
     transform: translateY(-50%);
 }
 
-img{
+#img-1{
     height: 180px;
     width: 180px;
     object-fit: cover;
+    animation-name: img-anim;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+}
+#img-2{
+    height: 180px;
+    width: 180px;
+    object-fit: cover;
+}
+
+@keyframes img-anim {
+    0%   {opacity: 0}
+    50%  {opacity: 1}
+    100% {opacity: 0}
 }
 
