@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="087fdb02-4c5b-469f-a946-aedb0d8f878b" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index_1.html" afterPath="$PROJECT_DIR$/index_1.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style1.css" afterPath="$PROJECT_DIR$/style1.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -17,21 +18,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index_1.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index_1.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index_1.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+            <state relative-caret-position="362">
+              <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style1.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style1.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style1.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+            <state relative-caret-position="488">
+              <caret line="102" column="21" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -46,8 +47,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/index.html" />
-        <option value="$PROJECT_DIR$/index_1.html" />
         <option value="$PROJECT_DIR$/style1.css" />
+        <option value="$PROJECT_DIR$/index_1.html" />
       </list>
     </option>
   </component>
@@ -58,7 +59,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="152" />
+    <option name="x" value="206" />
+    <option name="y" value="84" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -109,6 +111,9 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JavaScript Debug.index_1.html">
+    <configuration name="index_1.html" type="JavascriptDebugType" factoryName="JavaScript Debug" nameIsGenerated="true" uri="http://localhost:63343/2017-web-development-assignment-1-aonubeze/index_1.html" />
+  </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
@@ -119,15 +124,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1510336938303</updated>
-      <workItem from="1510336939484" duration="23679000" />
+      <workItem from="1510336939484" duration="38403000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23679000" />
+    <option name="totallyTimeSpent" value="38403000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="152" y="0" width="1400" height="1000" extended-state="0" />
+    <frame x="206" y="84" width="1400" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -159,18 +164,18 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/index_1.html">
+    <entry file="file://$PROJECT_DIR$/style1.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="404">
-          <caret line="29" column="46" lean-forward="true" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+        <state relative-caret-position="488">
+          <caret line="102" column="21" lean-forward="false" selection-start-line="102" selection-start-column="21" selection-end-line="102" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style1.css">
+    <entry file="file://$PROJECT_DIR$/index_1.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="58" column="25" lean-forward="false" selection-start-line="58" selection-start-column="25" selection-end-line="58" selection-end-column="25" />
+        <state relative-caret-position="362">
+          <caret line="46" column="54" lean-forward="true" selection-start-line="46" selection-start-column="54" selection-end-line="46" selection-end-column="54" />
           <folding />
         </state>
       </provider>

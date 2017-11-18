@@ -6,8 +6,21 @@
         <title>Drag and drop</title>
         <link rel="stylesheet" href="style1.css">
         <script>
-            function allowDrop(ev){
+            function dragOver(ev){
                 ev.preventDefault();
+                if(ev.target.className === "dropzone"){
+                    ev.target.innerHTML = "";
+                    ev.target.style.border = "2px dotted black";
+                }
+            }
+
+            function dragExit(ev){
+                console.log(ev.currentTarget);
+                var target = ev.currentTarget;
+                if(target.className === "dropzone"){
+                    target.innerHTML = "Drag & drop area";
+                    target.style.border = "";
+                }
             }
 
             function drag(ev){
@@ -16,10 +29,13 @@
 
             function drop(ev) {
                 ev.preventDefault();
+                console.log(ev);
                 var data = ev.dataTransfer.getData("text");
-                ev.target.innerHTML = "";
+                ev.target.style.border = "";
+                ev.target.style.margin = "6px";
                 ev.target.appendChild(document.getElementById(data));
             }
+
         </script>
     </head>
     <body>
@@ -33,16 +49,23 @@
         </div>
         <div class="container2">
             <div class="box-sm" id="img2-box">
-                <img id="img-2" src="imgs/puppy3.jpg" draggable="true" ondragstart="drag(event)">
+                <img id="img-2" src="imgs/puppy3.jpg" draggable="true"
+                     ondragstart="drag(event)">
             </div>
             <div id="txt-box">Text D</div>
         </div>
         <div class="container3">
-            <div class="box-sm" id="drop-area-1" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <div class="content">Drag & Drop area</div>
+            <div class="box-sm" id="drop-area-1">
+                <div class="dropzone" id="area1" ondrop="drop(event)"
+                     ondragover="dragOver(event)">
+                    Drag & Drop area
+                </div>
             </div>
-            <div class="box-sm" id="drop-area-2" ondrop="drop(event)" ondragover="allowDrop(event)">
-                <div class="content">Drag & Drop area</div>
+            <div class="box-sm" id="drop-area-2">
+                <div class="dropzone" id="area2" ondrop="drop(event)"
+                     ondragover="dragOver(event)">
+                    Drag & Drop area
+                </div>
             </div>
         </div>
     </body>

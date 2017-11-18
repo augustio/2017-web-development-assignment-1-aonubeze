@@ -82,26 +82,25 @@
     float: left;
     text-align: center;
     border: 2px solid green;
-    padding: 10px;
     box-sizing: border-box;
     margin-left: 250px;
+    cursor: move;
 }
 
 #drop-area-2{
     float: left;
     text-align: center;
     border: 2px solid black;
-    padding: 10px;
     box-sizing: border-box;
     margin-left: 500px;
+    cursor: move;
 }
 
-.content {
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+.dropzone {
+    height: 180px;
+    width: 180px;
+    margin-top: 6px;
+    margin-left: 6px;
 }
 
 #img-1{
