@@ -1,0 +1,68 @@
+body{
+    margin: 2% 5%;
+}
+
+header{
+    background-color: lightgray;
+    padding: 1.5em;
+    text-align: center;
+}
+.site_header{
+    font-size: large;
+    font-weight: bolder;
+}
+.nav_icons{
+    float: left;
+}
+
+.nav_icons:hover{
+    cursor: pointer;
+}
+
+nav ul{
+    float: right;
+    list-style-type: none;
+}
+nav li{
+    display: inline;
+    margin-right: 1.5em;
+}
+
+a{
+    text-decoration: none;
+}
+a:visited{
+    color:lightgray;
+}
+
+aside{
+    clear: right;
+    margin-top: 1em;
+    height: 100%;
+    width: 22%;
+    float: left;
+}
+
+aside ul{
+    width: 100%;
+    float: left;
+    padding-left: 0.5em;
+    background-color: aliceblue;
+    list-style-type: none;
+    border: 2px solid steelblue;
+}
+
+aside li{
+    margin: 1.5em 1.5em 1.5em 0.2em ;
+}
+
+main{
+    width: 68%;
+    float: right;
+}
+
+#main-img{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
